@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Local World</string>
+    <string name="hello_round">Hello Wear!</string>
+    <string name="hello_square">Hello Wear!</string>
+    <string name="feed">View Feed List</string>
+    <string name="self_destruct">Click here to read the trending news</string>
+</resources>
