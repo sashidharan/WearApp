@@ -3,12 +3,13 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <!--<ListView
-        android:id="@+id/list"
+    <ListView
+        android:id="@+id/list_view"
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content" />-->
-    <StackView
-        android:id="@+id/feed_list"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"></StackView>
+        android:layout_height="wrap_content" />
+    <!--<ViewFlipper
+        android:id="@+id/flipper_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center" />-->
 </LinearLayout>

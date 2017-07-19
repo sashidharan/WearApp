@@ -9,7 +9,6 @@ import android.widget.TextView;
 import android.widget.Button;
 import android.widget.Toast;
 import android.view.View;
-import android.view.View.OnClickListener;
 
 public class MainActivity extends Activity {
 
@@ -39,13 +38,6 @@ public class MainActivity extends Activity {
         Toast.makeText(getApplicationContext(), "You Came to Feed List", Toast.LENGTH_LONG).show();
         Intent intent = new Intent(context, FeedActivity.class);
         startActivity(intent);
-        /*button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(context, FeedActivity.class);
-                startActivity(intent);
-            }
-        });*/
     }
 
 
